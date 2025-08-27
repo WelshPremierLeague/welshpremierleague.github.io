@@ -1,0 +1,54 @@
+- inverted: timeline-inverted agenda
+  img: icon-agenda.jpeg
+  name: Key Dates
+  info:
+    - "Abstract submission opens: Now Open!"
+    - "Abstract submission deadline: 9th October 2025"
+    - "Notification of acceptance: 1st November 2025"
+    - "Presentation/poster submission: 10th December 2025"
+    - "Conference dates: 7th–9th January 2026"
+  #link: /agenda
+
+- inverted: venue
+  img: icon-venue.jpeg
+  name: Venue
+  info: The event will be held at the Computational Foundry on Swansea University's Bay Campus
+  link: /venue
+
+- inverted: timeline-inverted themes
+  img: icon-themes.png
+  name: Conference Themes
+  info: Our edition of this conference will be aligned with the
+    <a
+      class="urllink"
+      href="https://railtechnicalstrategy.co.uk/"
+      rel="nofollow"
+      target="_blank"
+      >Rail Technical Strategy</a
+    >
+  link: /themes
+
+- inverted: speakers
+  img: icon-speakers.png
+  name: Speakers
+  info: Invited Keynote Speakers
+  link: /speakers
+
+- inverted: timeline-inverted organisers
+  img: icon-team.jpeg
+  name: Organisers & Committee
+  info: The Conference Organisers and Program Committee
+  link: /organisers
+
+
+#- inverted: 
+#  img: icon-faq.jpeg
+#  name: FAQs
+#  info: Have a Question? Many answers can be found right here in our FAQs
+#  link: /faqs
+
+#- inverted: timeline-inverted
+#  img: booklet-icon.png
+#  name: Event Booklet
+#  info: View or Download our event booklet
+#  link: /booklet

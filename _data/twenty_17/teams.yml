@@ -1,0 +1,125 @@
+- title: Harry Bryant
+  name: Harry Bryant
+  subtitle: Co-Chair
+  affiliation: Swansea University
+  img: harrybryant.jpg
+  thumbnail: harrybryant.jpg
+  alt: Picture of TBD
+  topic: Topic
+  email: mailto:harry.bryant@swansea.ac.uk
+  linkedIn: https://www.linkedin.com/in/harry-bryant/
+
+- title: Alec Critten
+  name: Alec Critten
+  subtitle: Co-Chair
+  affiliation: Swansea University
+  img: aleccritten.jpg
+  thumbnail: aleccritten.jpg
+  alt: Picture of TBD
+  topic: Topic
+  email: mailto:alec.critten@swansea.ac.uk
+  linkedIn: https://www.linkedin.com/in/acritten/
+
+- title: Micheal Olawale
+  name: Micheal Olawale
+  subtitle: Organising Committee
+  affiliation: Swansea University
+  img: michealolawale.JPG
+  thumbnail: michealolawale.JPG
+  alt: Picture of Micheal Olawale
+  topic: Topic
+  description: More Info
+  email: mailto:m.j.olawale@swansea.ac.uk
+  linkedIn: https://www.linkedin.com/in/olawalejuwonm/
+
+
+- title: Marek Jezinski
+  name: Marek Jezinski
+  subtitle: Organising Committee
+  affiliation: Swansea University
+  img: marekjezinski.jpg
+  thumbnail: marekjezinski.jpg
+  alt: Picture of TBD
+  topic: Topic
+  description: More Info
+  email: mailto:m.t.jezinski@swansea.ac.uk
+  linkedIn: https://www.linkedin.com/in/marek-jezinski/
+
+- title:  Bassam Helal
+  name:   Bassam Helal
+  subtitle: Organising Committee
+  affiliation: Swansea University
+  img: bassamhelal.jpg
+  thumbnail: bassamhelal.jpg
+  alt: Picture of TBD
+  topic: Topic
+  description: More Info
+  email: mailto:809293@Swansea.ac.uk
+  linkedIn: https://www.linkedin.com/in/bassamhelal/
+
+- title: Federico Marino
+  name: Federico Marino
+  subtitle: Programme Committee
+  affiliation: University of Derby
+  img: federicomarino.jpg
+  thumbnail: federicomarino.jpg
+  alt: Picture of TBD
+  topic: Topic
+  description: More Info
+  linkedIn: https://www.linkedin.com/in/fmarino99/
+
+- title: Philomenah Holladay
+  name: Philomenah Holladay
+  subtitle: Programme Committee
+  affiliation: University of Sheffield
+  img: PhilomenahHolladay.jpg
+  thumbnail: PhilomenahHolladay.jpg
+  alt: Picture of TBD
+  topic: Topic
+  description: More Info
+  linkedIn: https://www.linkedin.com/in/philomenah-holladay-a14ab31a1/
+
+- title: Liu Yang
+  name: Liu Yang
+  subtitle: Programme Committee
+  affiliation: University of Birmingham
+  img: liuyang.jpg
+  thumbnail: liuyang.jpg
+  alt: Picture of TBD
+  topic: Topic
+  description: More Info
+  linkedIn: https://www.linkedin.com/in/yang-liu-66941659/
+
+- title: Jinyi Pan
+  name: Jinyi Pan
+  subtitle: Programme Committee
+  affiliation: University of Leeds
+  img: jinyipan.jpg
+  thumbnail: jinyipan.jpg
+  alt: Picture of TBD
+  topic: Topic
+  description: More Info
+  social: none
+  # !!! IMPORTANT: Please add "social: none" field if no social links are available, following the example above !!!
+
+- title: Kang Tan
+  name: Kang Tan
+  subtitle: Programme Committee
+  affiliation: University of Nottingham
+  img: kangtan.jpg
+  thumbnail: kangtan.jpg
+  alt: Picture of TBD
+  topic: Topic
+  description: More Info
+  social: none
+
+- title: Xuwen Jia
+  name: Xuwen Jia
+  subtitle: Programme Committee
+  affiliation: University College London
+  img: jiaxuwen.png
+  thumbnail: jiaxuwen.png
+  alt: Picture of TBD
+  topic: Topic
+  description: More Info
+  social: none

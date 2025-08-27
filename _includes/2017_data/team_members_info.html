@@ -1,0 +1,37 @@
+ <!-- Portfolio Modals -->
+ {% for team in site.data.twenty_17.teams %}
+    <div class="portfolio-modal modal fade" id="{{ team.name }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>{{ team.title }}</h2>
+                            <hr class="star-primary">
+                            <img src="../css/2017_style/img/team/{{ team.img }}" class="img-responsive img-centered" alt="{{ team.alt }}">
+                            <p>{{ team.description }}</p>
+                            <div class="team-contact-info">
+                                {% if team.email %}
+                                    <p><i class="fa fa-envelope"></i> <a href="{{ team.email }}">Email</a></p>
+                                {% endif %}
+                                {% if team.linkedIn %}
+                                    <p><i class="fa fa-linkedin"></i> <a href="{{ team.linkedIn }}" target="_blank">LinkedIn Profile</a></p>
+                                {% endif %}
+                                {% if team.social == "none" %}
+                                <a href="#" target="_blank" title="LinkedIn" style="visibility: hidden;"><i class="fa fa-linkedin"></i></a>
+                                {% endif %}
+                            </div>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
