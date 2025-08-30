@@ -1,8 +1,7 @@
 - inverted: timeline-inverted agenda
   img: icon-agenda.jpeg
   name: Fixtures and Results
-  info: Veiw the Latest Results and Upcoming Fixtures
-    Next Fixtures: "<br>F1<br>F2"
+  info: View the Latest Results and Upcoming Fixtures
   link: /fandr
 
 - inverted: teams
