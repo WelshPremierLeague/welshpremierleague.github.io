@@ -24,12 +24,12 @@ title: Fixtures and Results
 
   <h2> 2025 Results</h2>
 
-  {% assign 2025 = site.data.2025 %}
+  {% assign results2025 = site.data.results2025 %}
   <ul>
-    {% for r2025 in 2025 %}
+    {% for r2025 in results2025 %}
       <li>{{ r2025.Home }} vs {{ r2025.Away }} at {{ r2025.Venue }} - {{r2025.Winner}}</li>
     {% endfor %}
   </ul>
-test
+
 </section>
 
