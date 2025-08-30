@@ -10,8 +10,8 @@
   link: /fandr
 
 - inverted: teams
-  img: icon-venue.jpeg
-  name: Venue
+  img: icon-team.jpeg
+  name: Teams
   info: Information on the 12 teams in the WPL
   link: /teams
 
@@ -25,7 +25,7 @@
   img: bar-chart.png
   name: Overall Statistics
   info: The Statistics from the entire history of the WPL
-  link: /overallstatistics
+  link: /overall
 
 - inverted: timeline-inverted statisticsperyear
   img: description.png
