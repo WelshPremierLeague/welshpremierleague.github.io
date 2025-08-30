@@ -18,16 +18,17 @@ title: Fixtures and Results
 <h2>Latest Results</h2>
 <ul>
   {% for row in results limit:2 %}
-    <li>{ row }</li>
+    <li>{{ row }}</li>
   {% endfor %}
 </ul>
 
 <h2>Next Fixtures</h2>
 <ul>
   {% for row in results offset:2 limit:2 %}
-    <li>{ row }</li>
+    <li>{{ row }}</li>
   {% endfor %}
 </ul>
+
 
 
 
