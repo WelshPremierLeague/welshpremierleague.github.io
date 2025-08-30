@@ -4,24 +4,23 @@ permalink: /fandr
 title: Fixtures and Results
 ---
 
+<script type="text/javascript">
+  document.write(
+    '<body style="background: #F7F7F7; background-attachment: fixed;">'
+  );
+</script>
+
 <section id="Fixtures and Results" class="black-frame about about-container about-container-top about-container-bottom">
   <h1>Fixtures and Results</h1>
 
-  {% assign results = site.data.fandr %}
+{% assign fixtures = site.data.fandr | slice: 0, 4 %}
+<ul>
+  {% for row in fixtures %}
+    <li>{{ row.Team }} vs {{ row.Opponent }} on {{ row.Date }}</li>
+  {% endfor %}
+</ul>
 
-  <h2>Latest Results</h2>
-  <ul>
-    {% for row in results limit:2 %}
-      <li>{{ row }}</li>
-    {% endfor %}
-  </ul>
 
-  <h2>Next Fixtures</h2>
-  <ul>
-    {% for row in results offset:2 limit:2 %}
-      <li>{{ row }}</li>
-    {% endfor %}
-  </ul>
 
-  <a href="/fandr" class="btn btn-sm">Learn More</a>
 </section>
+
