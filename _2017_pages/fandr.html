@@ -18,10 +18,18 @@ title: Fixtures and Results
   {% assign fixtures = site.data.fixtures | slice: 0, 4 %}
   <ul>
     {% for match in fixtures %}
-      <li>{{ match.Date }}: {{ match.Team }} vs {{ match.Opponent }} at {{ match.Venue }}</li>
+      <li>{{ match.Team }} vs {{ match.Opponent }} at {{ match.Venue }}</li>
     {% endfor %}
   </ul>
 
+  <h2> 2025 Results</h2>
+
+  {% assign 2025 = site.data.2025 | slice: 0, 4 %}
+  <ul>
+    {% for match in fixtures %}
+      <li>{{ match.Team }} vs {{ match.Opponent }} at {{ match.Venue }} - {{match.Result}}</li>
+    {% endfor %}
+  </ul>
 
 </section>
 
