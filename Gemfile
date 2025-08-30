@@ -36,3 +36,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "bulma-clean-theme",  '1.0.0'
 
 # Live reload for development
+
+gem 'jekyll-csv'
