@@ -1,9 +1,13 @@
 - inverted: timeline-inverted agenda
   img: icon-agenda.jpeg
-  name: Key Dates
+  name: Fixtures and Results
   info:
-    Latest Results: "R1<br>R2"
-    Next Fixtures: "Abstract submission opens: Now Open!<br>Abstract submission deadline: 9th October 2025"
+    Latest Results:
+    - "<br>R1"
+    - "R2"
+    Next Fixtures:
+    - "<br>F1"
+    - "F2"
   link: /fandr
 
 - inverted: teams
