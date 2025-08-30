@@ -7,38 +7,31 @@
     - "Notification of acceptance: 1st November 2025"
     - "Presentation/poster submission: 10th December 2025"
     - "Conference dates: 7th–9th January 2026"
-  #link: /agenda
+  link: /fandr
 
-- inverted: venue
+- inverted: teams
   img: icon-venue.jpeg
   name: Venue
   info: The event will be held at the Computational Foundry on Swansea University's Bay Campus
-  link: /venue
+  link: /teams
 
-- inverted: timeline-inverted themes
+- inverted: timeline-inverted players
   img: icon-themes.png
   name: Conference Themes
   info: Our edition of this conference will be aligned with the
-    <a
-      class="urllink"
-      href="https://railtechnicalstrategy.co.uk/"
-      rel="nofollow"
-      target="_blank"
-      >Rail Technical Strategy</a
-    >
-  link: /themes
+  link: /players
 
-- inverted: speakers
+- inverted: overall
   img: icon-speakers.png
-  name: Speakers
-  info: Invited Keynote Speakers
-  link: /speakers
+  name: Overall Statistics
+  info: Overall Statistics
+  link: /overallstatistics
 
-- inverted: timeline-inverted organisers
+- inverted: timeline-inverted statisticsperyear
   img: icon-team.jpeg
-  name: Organisers & Committee
-  info: The Conference Organisers and Program Committee
-  link: /organisers
+  name: Yearly Statistics
+  info: Yearly Statistics
+  link: /yearlystatistics
 
 
 #- inverted: 
