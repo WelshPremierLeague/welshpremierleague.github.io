@@ -2,12 +2,8 @@
   img: icon-agenda.jpeg
   name: Key Dates
   info:
-    Latest Results:<br>
-    - "Abstract submission opens: Now Open!"
-    - "Abstract submission deadline: 9th October 2025"
-    Next Fixtures:
-    - "Abstract submission opens: Now Open!"
-    - "Abstract submission deadline: 9th October 2025"
+    Latest Results: "Abstract submission opens: Now Open!<br>Abstract submission deadline: 9th October 2025"
+    Next Fixtures: "Abstract submission opens: Now Open!<br>Abstract submission deadline: 9th October 2025"
   link: /fandr
 
 - inverted: teams
