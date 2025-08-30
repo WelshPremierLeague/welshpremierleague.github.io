@@ -15,7 +15,7 @@ title: Fixtures and Results
 
   <h2> Upcoming Fixtures</h2>
 
-  {% assign fixtures = site.data.fixtures | slice: 0, 4 %}
+  {% assign fixtures = site.data.fixtures %}
   <ul>
     {% for match in fixtures %}
       <li>{{ match.Team }} vs {{ match.Opponent }} at {{ match.Venue }}</li>
@@ -24,7 +24,7 @@ title: Fixtures and Results
 
   <h2> 2025 Results</h2>
 
-  {% assign 2025 = site.data.2025 | slice: 0, 4 %}
+  {% assign 2025 = site.data.2025 %}
   <ul>
     {% for match in 2025 %}
       <li>{{ match.Home }} vs {{ match.Away }} at {{ match.Venue }} - {{match.Winner}}</li>
