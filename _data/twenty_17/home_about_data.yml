@@ -2,18 +2,9 @@
   img: icon-agenda.jpeg
   name: Fixtures and Results
   info:
-    Latest Results: |
-      {% assign results = site.data.fandr %}
-      {% for row in results limit:2 %}
-        {{ row[0] }}<br>
-      {% endfor %}
-    Next Fixtures: |
-      {% assign results = site.data.fandr %}
-      {% for row in results offset:2 limit:2 %}
-        {{ row[0] }}<br>
-      {% endfor %}
+    Latest Results: "<br>R1<br>R2"
+    Next Fixtures: "<br>F1<br>F2"
   link: /fandr
-
 
 - inverted: teams
   img: icon-team.jpeg
