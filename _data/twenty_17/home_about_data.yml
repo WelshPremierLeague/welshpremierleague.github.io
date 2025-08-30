@@ -12,33 +12,33 @@
 - inverted: teams
   img: icon-venue.jpeg
   name: Venue
-  info: The event will be held at the Computational Foundry on Swansea University's Bay Campus
+  info: Information on the 12 teams in the WPL
   link: /teams
 
 - inverted: timeline-inverted players
-  img: icon-themes.png
-  name: Conference Themes
-  info: Our edition of this conference will be aligned with the
+  img: cricket (1).png
+  name: Players
+  info: Individual Player Statistics from the WPL
   link: /players
 
 - inverted: overall
-  img: icon-speakers.png
+  img: bar-chart.png
   name: Overall Statistics
-  info: Overall Statistics
+  info: The Statistics from the entire history of the WPL
   link: /overallstatistics
 
 - inverted: timeline-inverted statisticsperyear
-  img: icon-team.jpeg
+  img: description.png
   name: Yearly Statistics
-  info: Yearly Statistics
+  info: See the Statistics for each edition of the WPL
   link: /yearlystatistics
 
 
-#- inverted: 
-#  img: icon-faq.jpeg
-#  name: FAQs
-#  info: Have a Question? Many answers can be found right here in our FAQs
-#  link: /faqs
+- inverted: Records
+  img: open-book.png
+  name: Records
+  info: WPL's Records
+  link: /records
 
 #- inverted: timeline-inverted
 #  img: booklet-icon.png
