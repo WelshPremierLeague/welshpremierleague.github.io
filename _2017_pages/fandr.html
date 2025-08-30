@@ -26,8 +26,8 @@ title: Fixtures and Results
 
   {% assign 2025 = site.data.2025 | slice: 0, 4 %}
   <ul>
-    {% for match in fixtures %}
-      <li>{{ match.Team }} vs {{ match.Opponent }} at {{ match.Venue }} - {{match.Result}}</li>
+    {% for match in 2025 %}
+      <li>{{ match.Home }} vs {{ match.Away }} at {{ match.Venue }} - {{match.Winner}}</li>
     {% endfor %}
   </ul>
 
