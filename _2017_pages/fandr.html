@@ -1,14 +1,19 @@
 ---
-layout: default
-title: Fixtures and Results
+layout: 2017_default
 permalink: /fandr
+title: Fixtures and Results
 ---
 
-<div class="container timeline-inverted agenda">
-  <img src="/assets/images/icon-agenda.jpeg" alt="Agenda Icon">
-  <h2>Fixtures and Results</h2>
+<script type="text/javascript">
+  document.write(
+    '<body style="background: #F7F7F7; background-attachment: fixed;">'
+  );
+</script>
 
-  <h3>Latest Results</h3>
+<section id="Fixtures and Results" class="black-frame about about-container about-container-top about-container-bottom">
+  <h1>Fixtures and Results</h1>
+
+  <h2>Latest Results</h2>
   <ul>
     {% assign results = site.data.fandr %}
     {% for row in results limit:2 %}
@@ -16,7 +21,7 @@ permalink: /fandr
     {% endfor %}
   </ul>
 
-  <h3>Next Fixtures</h3>
+  <h2>Next Fixtures</h2>
   <ul>
     {% for row in results offset:2 limit:2 %}
       <li>{{ row[0] }}</li>
@@ -24,4 +29,4 @@ permalink: /fandr
   </ul>
 
   <a href="/fandr" class="btn btn-sm">Learn More</a>
-</div>
+</section>
