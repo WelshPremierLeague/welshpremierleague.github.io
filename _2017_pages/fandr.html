@@ -15,11 +15,10 @@ title: Fixtures and Results
 
 {% assign fixtures = site.data.fandr | slice: 0, 4 %}
 <ul>
-  {% for row in fixtures %}
-    <li>{{ row.Team }} vs {{ row.Opponent }} on {{ row.Date }}</li>
+  {% for match in fixtures %}
+    <li>{{ match.Date }}: {{ match.Team }} vs {{ match.Opponent }} at {{ match.Venue }} – {{ match.Result }}</li>
   {% endfor %}
 </ul>
-
 
 
 </section>
