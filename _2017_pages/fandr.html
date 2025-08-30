@@ -13,21 +13,22 @@ title: Fixtures and Results
 <section id="Fixtures and Results" class="black-frame about about-container about-container-top about-container-bottom">
   <h1>Fixtures and Results</h1>
 
-  {% assign results = site.data.fandr %}
+{% assign results = site.data.fandr %}
 
 <h2>Latest Results</h2>
 <ul>
   {% for row in results limit:2 %}
-    <li>{{ row[0] }}</li>
+    <li>{{ row }}</li>
   {% endfor %}
 </ul>
 
 <h2>Next Fixtures</h2>
 <ul>
   {% for row in results offset:2 limit:2 %}
-    <li>{{ row[0] }}</li>
+    <li>{{ row }}</li>
   {% endfor %}
 </ul>
+
 
 </section>
 
